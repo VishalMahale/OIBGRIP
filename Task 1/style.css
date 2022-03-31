@@ -1,0 +1,95 @@
+body{
+    background-color: azure;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px #0000009d;
+    margin-top: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
+}
+.nav-body{
+    float: right;   
+    margin-right: 100px;
+}
+
+.navbar img{
+    margin-left: 112px;
+    width: 166px;
+}
+
+iframe{
+    margin: 35px 0px 20px 73px;
+}
+.f-frame{
+    margin-left: 113px;
+}
+
+.letter{
+    margin: 35px 250px 10px 250px;
+    background-color: #cceed1;
+    padding:25px;
+
+}
+.let-body{
+    margin-top: 15px;
+}
+.let-body:nth-child(5){
+    margin-top: 30px;
+    width: 83px;
+    transition: box-shadow 0.5s;
+
+}
+.let-body:nth-child(5):hover{
+    box-shadow: 2px 2px 5px #000000;
+    background-color: aquamarine;
+}
+.container{
+    margin-top: 35px;
+}
+.footer{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px #0000009d;
+    margin-top: 35px; 
+    display: flex;
+    justify-content: space-between;   
+}
+
+.foot-nav{
+    
+    padding: 20px;
+}
+
+.handles a{
+    padding: 20px;
+    font-size: 30px;
+}
+.handles{
+    margin-top: 10px;
+}
+
+.but{
+    transition: box-shadow 0.5s;
+
+}
+.but:hover{
+    box-shadow: 2px 2px 5px #000000;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+}
+
+.vid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery{
+    margin-top: 35px;
+}
